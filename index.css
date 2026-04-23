@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  background-color: #eeebe6;
+  color: #4a3428;
+  text-decoration: none;
+}
+
+.img-logo {
+  height: 80px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 200px;
+}
+.ul-nav {
+  display: flex;
+  list-style: none;
+  gap: 35px;
+}
+.btn-header{
+    background-color: #4a3428;
+    padding: 7px;
+    color: #eeebe6;
+    padding: 8px 12px;
+    border-radius: 16px;
+}
+.btn-header > i {
+    background-color: #4a3428;
+}
