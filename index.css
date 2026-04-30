@@ -4,9 +4,12 @@
   border: 0;
   outline: 0;
   box-sizing: border-box;
-  background-color: #eeebe6;
   color: #4a3428;
   text-decoration: none;
+  font-family: "Inter", sans-serif;
+}
+h1 {
+  font-family: "Playfair Display", serif;
 }
 
 .img-logo {
@@ -17,19 +20,87 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 200px;
+  background-color: #eeebe6;
+  position: sticky;
+  top: 0;
+  z-index: 99;
 }
+
 .ul-nav {
   display: flex;
   list-style: none;
   gap: 35px;
 }
-.btn-header{
-    background-color: #4a3428;
-    padding: 7px;
-    color: #eeebe6;
-    padding: 8px 12px;
-    border-radius: 16px;
+.ul-nav a:hover {
+  color: #d4af37;
+  transition-duration: 0.5s;
+}
+.btn-header {
+  background-color: #4a3428;
+  padding: 7px;
+  color: #eeebe6;
+  padding: 8px 12px;
+  border-radius: 16px;
 }
 .btn-header > i {
-    background-color: #4a3428;
+  background-color: #4a3428;
 }
+.section-banner {
+  background-image: url("./assets/brownie-banner.png");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 250px;
+  gap: 30px;
+  position: relative;
+}
+.div-banner {
+  position: absolute;
+  background-color:  #00000062;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+.section-banner h1 {
+  font-size: 60px;
+  width: 17ch;
+  text-align: center;
+  color: #fff;
+  font-weight: 400;
+  z-index: 1;
+}
+.section-banner h2 {
+  color: #fff;
+  font-weight: 400;
+  z-index: 1;
+}
+.section-banner a {
+  color: #fff;
+  background-color: #4a3428;
+  padding: 20px;
+  border-radius: 32px;
+  z-index: 1;
+  transition-duration: 0.5s;
+}
+.section-banner a:hover {
+  background-color: #2d1e16;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.section-sobre-nos {
+  display: flex;
+  justify-content: space-between;
+  padding: 64px 100px;
+}
+.section-sobre-nos img {
+  height: 500px;
+  border-radius: 16px;
+  box-shadow: 0 20px 25px -5px rgba(0,0,0,0.207);
+}
+    
+
