@@ -322,6 +322,7 @@ height: 80%;
 
 }
 @media (width <= 562px){
-  margin-right: 30% ;
-
+  header h1{
+  margin-right:30% ;
+  }
 }
